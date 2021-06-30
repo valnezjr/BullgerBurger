@@ -112,6 +112,19 @@ h1 {
   width: 100%;
 }
 
+#footer {
+  border-top: 2px solid #ffd343;
+  margin-top: 2rem;
+  display: flex;
+  height: 6.5rem;
+  position: flex;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: black;
+  width: 100%;
+}
+
 main {
   margin-top: var(--header-height);
 }
@@ -322,13 +335,13 @@ nav.show ul li {
   display: block;
   margin-bottom: 2rem;
   max-width: 40rem;
-  min-width: 24rem;
+  min-width: 20rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 12rem;
 }
-/*==== FINDUS =================*/
+/*==== PRODUCTS =================*/
 #products {
   overflow: hidden;
 }
@@ -342,7 +355,9 @@ nav.show ul li {
 }
 
 #grilled {
-  border-radius: 200rem;
+  border-radius: 100rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 #products .container {
   margin: 0;
@@ -363,9 +378,58 @@ nav.show ul li {
   display: block;
   margin-bottom: 2rem;
   max-width: 40rem;
-  min-width: 24rem;
+  min-width: 20rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5rem;
+}
+/*==== FINDUS =================*/
+#findus {
+  overflow: hidden;
+}
+#findus .image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 15rem;
+  max-width: 40rem;
+  margin-top: 5rem;
+}
+
+#findus .container {
+  margin: 0;
+}
+
+#findus .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+#location {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+#findus .text h2 {
+  margin-bottom: 1rem;
+  margin-top: 4.5rem;
+}
+
+#findus .text p {
+  display: block;
+  margin-bottom: 2rem;
+  max-width: 40rem;
+  min-width: 20rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+#findus .button {
+  position: center;
 }
