@@ -441,26 +441,21 @@ nav.show ul li {
 /*----- FOOTER ------*/
 #insta {
   width: 2rem;
-  z-index: 110;
-
   margin-right: 0.5rem;
 }
 
 #wpp {
   width: 2rem;
-  z-index: 110;
   margin-right: 0.5rem;
 }
 
 #instaTag {
-  z-index: 110;
   color: white;
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
 #wppTag {
-  z-index: 120;
   color: white;
   display: flex;
   align-items: center;
