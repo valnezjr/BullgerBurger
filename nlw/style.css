@@ -115,7 +115,6 @@ h1 {
 #footer {
   border-top: 2px solid #ffd343;
   margin-top: 2rem;
-  display: flex;
   height: 8.5rem;
   position: static;
   bottom: 0;
@@ -125,6 +124,11 @@ h1 {
   width: 100%;
 }
 
+#footerElements {
+  display: grid;
+  padding: 1rem;
+  align-content: center;
+}
 main {
   margin-top: var(--header-height);
 }
@@ -436,32 +440,27 @@ nav.show ul li {
 /*----- FOOTER ------*/
 #insta {
   width: 2rem;
-  position: absolute;
-  bottom: -186rem;
-  left: 2rem;
   z-index: 110;
+
+  margin-right: 0.5rem;
 }
+
 #wpp {
   width: 2rem;
-  position: absolute;
-  bottom: -189rem;
-  left: 2rem;
   z-index: 110;
+  margin-right: 0.5rem;
 }
 
 #instaTag {
-  position: absolute;
-  display: block;
-  bottom: -185.6rem;
-  left: 4.5rem;
   z-index: 110;
   color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 #wppTag {
-  position: absolute;
-  display: block;
-  bottom: -188.6rem;
-  left: 4.5rem;
   z-index: 120;
   color: white;
+  display: flex;
+  align-items: center;
 }
