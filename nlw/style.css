@@ -116,8 +116,8 @@ h1 {
   border-top: 2px solid #ffd343;
   margin-top: 2rem;
   display: flex;
-  height: 6.5rem;
-  position: flex;
+  height: 8.5rem;
+  position: static;
   bottom: 0;
   left: 0;
   z-index: 100;
@@ -410,7 +410,7 @@ nav.show ul li {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  max-width: 45rem;
+  max-width: 30rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -432,4 +432,36 @@ nav.show ul li {
 
 #findus .button {
   position: center;
+}
+/*----- FOOTER ------*/
+#insta {
+  width: 2rem;
+  position: absolute;
+  bottom: -186rem;
+  left: 2rem;
+  z-index: 110;
+}
+#wpp {
+  width: 2rem;
+  position: absolute;
+  bottom: -189rem;
+  left: 2rem;
+  z-index: 110;
+}
+
+#instaTag {
+  position: absolute;
+  display: block;
+  bottom: -185.6rem;
+  left: 4.5rem;
+  z-index: 110;
+  color: white;
+}
+#wppTag {
+  position: absolute;
+  display: block;
+  bottom: -188.6rem;
+  left: 4.5rem;
+  z-index: 120;
+  color: white;
 }
